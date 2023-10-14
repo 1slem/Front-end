@@ -7,7 +7,7 @@ import NavbarAdmin from '../../Components/NavbarAdmin';
 function AdminList() {
 
     const [admin, setAdmin] = useState([]);
-
+    
     useEffect(() => {
         async function fetchData() {
             try {

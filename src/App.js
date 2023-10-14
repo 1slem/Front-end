@@ -33,6 +33,7 @@ import AdminList from './Pages/Admin/AdminList';
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -67,7 +68,7 @@ function App() {
           <Route path="StudentDashboard" element={<StudentDashboard/>} />
           <Route path="StudentMessage" element={<StudentMessage/>} />
           <Route path="StudentCv" element={<StudentCv/>} />
-
+          {/* <Route path="courseDetails" element={<courseDetails/>} /> */}
 
           {/* Admin */}
           <Route path="adminaddcourse" element={<AdminAddCourse/>}/>

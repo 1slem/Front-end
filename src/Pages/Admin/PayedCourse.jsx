@@ -11,7 +11,6 @@ const PayedCourse = () => {
             <div className="page-content">
                 <div className="container">
                     <div className="row">
-
                         <div className="col-xl-3 col-lg-4 col-md-12 theiaStickySidebar">
                             <div className="settings-widget dash-profile">
                                 <div className="settings-menu p-0">
@@ -118,7 +117,6 @@ const PayedCourse = () => {
                                             </a>
                                         </li>
                                         <li className="nav-item">
-
                                             <Link to="/Home"> <i className="feather-power"></i> Sign Out</Link>
                                         </li>
                                     </ul>
